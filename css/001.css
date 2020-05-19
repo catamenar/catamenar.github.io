@@ -1,0 +1,40 @@
+/*este CSS es para portada y galeria*/
+
+html{min-height: 100vh;}
+
+body {-moz-transform: scale(0.83);
+zoom:0.83;
+font-size-adjust: auto!important;
+font-family: Quicksand;
+font-size: 1rem;}
+
+p#intro {text-align: center;
+		font-weight: bold;}
+
+h1, h2, h3, h4, h5, h6{font-family: Courgette;}
+
+h1#galeria{color: white;
+		text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+ }
+
+
+ hr.fucsia{background: #ff48b0;
+ 		border: 4px solid #ff48b0;
+ 		border-radius: 4px;}
+
+/*propiedades de los Div: Color del fondo, estilo del borde, grosor del borde*/
+div.cajas{background-color: #ffffff;
+        border: #8D8D8D;
+        border-style: outset; 
+        border-width: thick;}
+
+/*botones*/
+.btn-default {background-color: #e0c1d5!important;
+border-style: outset;
+border-color:#807287;
+border-radius: 0.3em!important;
+border-width: medium;
+font-family: Courgette;
+font-size: 1.3rem;}
+.btn-default:hover {background-color: #C489AF!important;}
+
